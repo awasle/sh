@@ -7,7 +7,7 @@ echo -e "\033[96m_  _ ____  _ _ _    _ ____ _  _ "
 echo "|_/  |___  | | |    | |  | |\ | "
 echo "| \_ |___ _| | |___ | |__| | \| "
 echo "                                "
-echo -e "\033[96m科技lion一键脚本工具 v1.8.9 （支持Ubuntu，Debian，Centos系统）\033[0m"
+echo -e "\033[96m awasle一键脚本工具 v1.8.9 （支持Ubuntu，Debian，Centos系统）\033[0m"
 echo "------------------------"
 echo "1. 系统信息查询"
 echo "2. 系统更新"
@@ -5311,7 +5311,7 @@ EOF
           password="awasleYYDS"  # 替换为您的密码
 
           clear
-          echo "科技lion留言板"
+          echo "awasle留言板"
           echo "------------------------"
           # 显示已有的留言内容
           sshpass -p "${password}" ssh -o StrictHostKeyChecking=no "${remote_user}@${remote_ip}" "cat '${remote_file}'"
@@ -5392,7 +5392,7 @@ EOF
     echo "------------------------"
     echo "2023-8-14   v1.3.2"
     echo "新增了13选项，系统工具"
-    echo "科技lion一键脚本可以通过设置快捷键唤醒打开了，我设置的k作为脚本打开的快捷键！无需复制长命令了"
+    echo "awasle一键脚本可以通过设置快捷键唤醒打开了，我设置的k作为脚本打开的快捷键！无需复制长命令了"
     echo "加入了ROOT密码修改，切换成ROOT登录模式"
     echo "系统设置中还有很多功能没开发，敬请期待！"
     echo "------------------------"
